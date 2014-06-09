@@ -6,3 +6,4 @@ Website - Aaapulki Ek Janiv
 2. Whenever you change something from repository please add checkin comments
 3. To learn git hub : https://help.github.com/articles/fork-a-repo
 4. http://lifehacker.com/5983680/how-the-heck-do-i-use-github
+5. Change to test the commit.
