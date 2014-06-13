@@ -1,0 +1,2 @@
+You can download the github interface from here :
+http://github-windows.s3.amazonaws.com/GitHubSetup.exe
