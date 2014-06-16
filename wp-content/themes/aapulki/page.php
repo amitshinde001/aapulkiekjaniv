@@ -8,22 +8,20 @@
  * different template.
  *
  * @package WordPress
- * @subpackage Twenty_Twelve
- * @since Twenty Twelve 1.0
+ * @subpackage  Aapulki
+ * @since Aapulki 1.0
  */
 
 get_header(); ?>
-
-	<div id="primary" class="site-content">
-		<div id="content" role="main">
-
+<div class="row">
+	<div class="eight column">
 			<?php while ( have_posts() ) : the_post(); ?>
 				<?php get_template_part( 'content', 'page' ); ?>
 				<?php comments_template( '', true ); ?>
 			<?php endwhile; // end of the loop. ?>
-
-		</div><!-- #content -->
-	</div><!-- #primary -->
-
-<?php get_sidebar(); ?>
+	</div>
+	<div class="four column">
+		<?php get_sidebar(); ?>
+	</div>
+</div>
 <?php get_footer(); ?>
